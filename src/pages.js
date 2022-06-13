@@ -4,7 +4,7 @@ export const pages = (() => {
     const home = () => {
         const content = document.createElement('div');
         const toptext = document.createElement('p');
-        toptext.innerHTML = 'The only best spagheti';
+        toptext.innerHTML = 'Only the best spagheti';
     
         const spaghetiImg = document.createElement('img');
         spaghetiImg.src = ImgSpagheti;
