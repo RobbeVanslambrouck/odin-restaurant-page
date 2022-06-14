@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Titillium';
+    src: url('../fonts/Titillium_Web/TitilliumWeb-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium';
+    src: url('../fonts/Titillium_Web/TitilliumWeb-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Titillium';
+    src: url('../fonts/Titillium_Web/TitilliumWeb-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium';
+    src: url('../fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+:root {
+    --img-width: min(60vw, 60vh);
+}
+
+html, body {
+    font-size: 62.5%;
+    font-family: 'Titillium', Arial, sans-serif;
+    color: #fff;
+    background-color: #201810;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+h1 {
+    color: #ffe6c0;
+    text-transform: capitalize;
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+a {
+    color: #7dcaed;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+}
+
+nav a {
+    text-transform: capitalize;
+    font-size: 1.7rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: var(--img-width);
+    height: var(--img-width);
+    margin: 1rem auto;
+    object-fit: cover;
+    border-radius: 25%;
+}
+
+footer {
+    margin-top: auto;
+    height: 5rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer i {
+    font-size: 1.6rem;
+    margin: 0 0.5rem;
+}
+
+footer p {
+    line-height: 5rem;
+    display: inline;
+}
+
+@media (hover: hover) {
+    a:hover {
+        color: #9ad1ea;
+        text-decoration: underline;
+    }
+}

@@ -9,7 +9,6 @@ export const pages = (() => {
         const spaghetiImg = document.createElement('img');
         spaghetiImg.src = ImgSpagheti;
         spaghetiImg.alt = 'plate of spagheti';
-        spaghetiImg.style = 'height: 400px';
     
         const moto = document.createElement('p');
         moto.innerHTML = 'we only have one moto, the belly must grow';
@@ -30,8 +29,10 @@ export const pages = (() => {
     const contact = () => {
         const content = document.createElement('div');
         const text = document.createElement('p');
-        text.innerHTML = 'contact';
-        content.append(text);
+        const number = document.createElement('p');
+        text.innerHTML = 'For spagheti call:';
+        number.innerHTML = '123 456 789';
+        content.append(text, number);
         return content;
     }
 

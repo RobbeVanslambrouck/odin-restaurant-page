@@ -1,8 +1,9 @@
-import { pages } from './pages'
+import { pages } from './pages';
 
 const navItem = () => {
     const makeItem = (text, eventHandler = () => {}) => {
         const item =document.createElement('li');
+        item.id = text;
         const link = document.createElement('a');
         link.onclick = (e) => {
             e.preventDefault();

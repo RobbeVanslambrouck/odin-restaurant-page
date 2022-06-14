@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'Titillium';
-    src: url('./Titillium_Web/TitilliumWeb-Bold.ttf')
-}
-
-p {
-    font-family: 'Titillium', Arial, sans-serif;
-}

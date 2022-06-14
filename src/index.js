@@ -1,6 +1,8 @@
 import { pages } from './pages';
 import { elements } from './commonElements';
-import './style.css';
+import './assets/css/all.css';
+import './styles/reset.css';
+import './styles/style.css';
 
 const pageContent =  (() => {
     const body = document.querySelector('body');
